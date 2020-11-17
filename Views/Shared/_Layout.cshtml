@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - VETERINARIA</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
     <header>
@@ -35,9 +36,22 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+        @*<footer class="border-top footer text-muted">
+         <div class="container"> 
             &copy; 2020 - Veterinaria - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div> *@
+    <footer class="footer">
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section about"></div>
+                <div class="footer-section links"></div>
+                <div class="footer-section contact-form"></div>
+            </div>
+           
+            <div class="footer-button">
+                &copy; 2020 - Veterinaria | Designed by Grupo celeste 
+                @*&copy; 2020 - Veterinaria - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> *@
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
